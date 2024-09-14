@@ -1,7 +1,8 @@
 # MiniAdSDKipa
 广告集成，最低支持iOS11，仅支持打包ipa使用，不支持模拟器和真机联调。
-# 接入
+# 接入指引，请添加source，否则可能走cdn的配置。
 ```
+source 'https://github.com/CocoaPods/Specs.git'
 pod 'MiniAdSDKipa'
 ```
 # 若要支持真机联调，请引入KSAdSDK
