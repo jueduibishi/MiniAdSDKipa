@@ -4,6 +4,10 @@
 ```
 pod 'MiniAdSDKipa'
 ```
+# 若要支持真机联调，请引入KSAdSDK
+```
+pod "KSAdSDK", "3.3.66.3"
+```
 # 配置
 
 ## 1、在项目的Info.plist文件中添加以下字段
