@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint MiniAdSDK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint MiniAdSDKipa.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "MiniAdSDK"
+  spec.name         = "MiniAdSDKipa"
   spec.version      = "0.0.3"
   spec.summary      = "广告集成."
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   集成framework各种广告sdk
                    DESC
 
-  spec.homepage     = "https://github.com/jueduibishi/MiniAdSDK"
+  spec.homepage     = "https://github.com/jueduibishi/MiniAdSDKipa"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jueduibishi/MiniAdSDK.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/jueduibishi/MiniAdSDKipa.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
