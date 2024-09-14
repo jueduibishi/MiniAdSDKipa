@@ -99,9 +99,9 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "Classes/**/*.h"
     #不支持模拟器
     spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => ''
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => '' }
+spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
