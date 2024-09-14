@@ -1,5 +1,5 @@
 # MiniAdSDKipa
-广告集成，最低支持iOS11，仅支持打包ipa使用，不支持模拟器和真机联调，也不包含KSAdSDK。
+广告集成，最低支持iOS11，仅支持打包ipa使用，不支持模拟器和真机联调。
 # 接入
 ```
 pod 'MiniAdSDKipa'
